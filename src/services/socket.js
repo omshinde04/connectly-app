@@ -2,7 +2,7 @@ import { io } from 'socket.io-client';
 
 const SOCKET_URL = __DEV__
     ? 'http://192.168.1.196:3001'
-    : 'https://connectly-socket.onrender.com';
+    : 'https://connectly-socket-server.onrender.com';
 
 let socket;
 
